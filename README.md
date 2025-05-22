@@ -90,7 +90,10 @@ celery -A billing_project beat --loglevel=info
 ---
 
 ## 📝 Future Enhancements
-[ ] - Stripe integration for real payments
-[ ] - Email sending (not just console)
-[ ] - Admin interface for invoice management
-[ ] - Better invoice filtering and pagination
+[ ] - Stripe integration for real payments.
+
+[ ] - Email sending (not just console).
+
+[ ] - Admin interface for invoice management.
+
+[ ] - Better invoice filtering and pagination.
