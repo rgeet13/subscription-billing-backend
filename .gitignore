@@ -1,0 +1,27 @@
+
+---
+
+### ✅ `.gitignore`
+
+```gitignore
+# Virtualenv
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django stuff
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# VSCode
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Env
+.env
