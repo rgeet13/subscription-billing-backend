@@ -51,7 +51,7 @@ This is a Django-based subscription billing backend that supports:
 ### 1. Clone & Install
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/rgeet13/subscription-billing-backend
 cd billing_project
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
@@ -91,9 +91,6 @@ celery -A billing_project beat --loglevel=info
 
 ## 📝 Future Enhancements
 [ ] - Stripe integration for real payments
-
 [ ] - Email sending (not just console)
-
 [ ] - Admin interface for invoice management
-
 [ ] - Better invoice filtering and pagination
